@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Roicians]">
+  <test thread-count="5" name="TestN(failed)">
+    <classes>
+      <class name="com.selenium.TestN">
+        <methods>
+          <include name="Execute_test"/>
+          <include name="Defect_log"/>
+        </methods>
+      </class> <!-- com.selenium.TestN -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+  <test thread-count="5" name="Softassert(failed)">
+    <classes>
+      <class name="com.selenium.TestAssertExample">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.selenium.TestAssertExample -->
+    </classes>
+  </test> <!-- Softassert(failed) -->
+</suite> <!-- Failed suite [TestNg Roicians] -->

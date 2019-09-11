@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNg Roicians">
+	<test name="TestN" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.TestN" />
+		</classes>
+	</test>
+	<test name="Softassert" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.TestAssertExample" />
+		</classes>
+	</test>
+</suite>
